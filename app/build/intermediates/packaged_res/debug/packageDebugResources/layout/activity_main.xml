@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFF8E1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yaji &amp; Grill"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#B71C1C" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Delivery System"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer Module" />
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Module"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnKitchen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kitchen &amp; Delivery Module"
+        android:layout_marginTop="12dp" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFF8E1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#B71C1C" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage menu, review orders, and oversee operations."
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/adminMenuItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New menu item" />
+
+    <Button
+        android:id="@+id/btnAddMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Menu Item" />
+
+    <TextView
+        android:id="@+id/adminSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="No menu items yet." />
+</LinearLayout>

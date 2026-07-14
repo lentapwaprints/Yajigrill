@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+id adminMenuItem
+id adminSummary
+id btnAddMenu
+id btnAdmin
+id btnCustomer
+id btnDeliverNext
+id btnKitchen
+id btnPlaceOrder
+id btnPrepareNext
+id customerAddress
+id customerName
+id customerPhone
+id kitchenSummary
+id menuGroup
+id orderSummary
+id rbJollof
+id rbSuya
+id rbYaji
+layout activity_admin
+layout activity_customer
+layout activity_kitchen_delivery
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+style Theme.YajiGrill

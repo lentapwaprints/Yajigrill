@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.10.2/com.yajigrill.app-debug-31:/layout_activity_customer.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.10.2/com.yajigrill.app-main-33:/layout/activity_customer.xml"
+    },
+    {
+        "merged": "com.yajigrill.app-debug-31:/mipmap_ic_launcher.png.flat",
+        "source": "com.yajigrill.app-main-33:/mipmap/ic_launcher.png"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.10.2/com.yajigrill.app-debug-31:/layout_activity_admin.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.10.2/com.yajigrill.app-main-33:/layout/activity_admin.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.10.2/com.yajigrill.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.10.2/com.yajigrill.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.10.2/com.yajigrill.app-debug-31:/layout_activity_kitchen_delivery.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.10.2/com.yajigrill.app-main-33:/layout/activity_kitchen_delivery.xml"
+    },
+    {
+        "merged": "com.yajigrill.app-debug-31:/mipmap_ic_launcher_round.png.flat",
+        "source": "com.yajigrill.app-main-33:/mipmap/ic_launcher_round.png"
+    }
+]

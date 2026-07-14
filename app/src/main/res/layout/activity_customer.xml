@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Portal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#B71C1C" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register, browse meals, place orders, and track delivery."
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/customerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Customer name" />
+
+        <EditText
+            android:id="@+id/customerPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number" />
+
+        <EditText
+            android:id="@+id/customerAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Delivery address" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available meals"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/menuGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rbJollof"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jollof Rice - ₦1,500" />
+            <RadioButton
+                android:id="@+id/rbSuya"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suya Plate - ₦2,000" />
+            <RadioButton
+                android:id="@+id/rbYaji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yaji Special - ₦2,500" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnPlaceOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place Order"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/orderSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="No order yet." />
+    </LinearLayout>
+</ScrollView>
